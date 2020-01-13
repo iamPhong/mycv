@@ -64,7 +64,7 @@ const About: React.FC = () => {
                   <span className="title-links">Social Links</span>
                   <ul className="ul-social-links">
                     <li className="li-social-links">
-                      <a href="# " data-tootik="Facebook" data-tootik-conf="square">
+                      <a href="https://www.facebook.com/phong.truong.71216141" data-tootik="Facebook" data-tootik-conf="square">
                         <i className="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
@@ -91,16 +91,6 @@ const About: React.FC = () => {
                     <li className="li-social-links">
                       <a href="# " data-tootik="Pinterest" data-tootik-conf="square">
                         <i className="fa fa-pinterest-p" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li className="li-social-links">
-                      <a href="# " data-tootik="Vimeo" data-tootik-conf="square">
-                        <i className="fa fa-vimeo" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li className="li-social-links">
-                      <a href="# " data-tootik="Behance" data-tootik-conf="square">
-                        <i className="fa fa-behance" aria-hidden="true"></i>
                       </a>
                     </li>
                   </ul>

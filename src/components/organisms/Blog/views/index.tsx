@@ -1,12 +1,11 @@
 import * as React from 'react'
 import BlogSection from './styles'
+import HeaderSection from '../../../molecules/HeaderSection'
 
 const Blog: React.FC = () => {
   return(
     <BlogSection id="blog" data-wow-offset="40">
-      <div className="header-section">
-        <h2 className="h2-section">BLOG</h2>
-      </div>
+      <HeaderSection>BLOG</HeaderSection>
       <div className="row">
         <div className="col-sm-6">
           <div className="blog-content">

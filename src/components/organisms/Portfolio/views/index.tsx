@@ -1,12 +1,11 @@
 import * as React from 'react'
 import PortfolioSection from './styles'
+import HeaderSection from '../../../molecules/HeaderSection'
 
 const Portfolio: React.FC = () => {
   return(
     <PortfolioSection id="portfolio" data-wow-offset="40">
-      <div className="header-section">
-        <h2 className="h2-section">PORTFOLIO</h2>
-      </div>
+      <HeaderSection>PORTFOLIO</HeaderSection>
       <div className="filter-portfolio">
         <ul>
           <li className="active filter" data-filter="all">All</li>

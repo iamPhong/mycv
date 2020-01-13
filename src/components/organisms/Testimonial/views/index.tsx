@@ -1,12 +1,11 @@
 import * as React from 'react'
 import TestimonialSection from './styles'
+import HeaderSection from '../../../molecules/HeaderSection'
 
 const Testimonial: React.FC = () => {
   return(
     <TestimonialSection id="testimonials" data-wow-offset="40">
-      <div className="header-section">
-        <h2 className="h2-section">TESTIMONIALS</h2>
-      </div>
+      <HeaderSection>TESTIMONIALS</HeaderSection>
       <div className="swiper-container">
         <div className="swiper-wrapper">
           <div className="swiper-slide">

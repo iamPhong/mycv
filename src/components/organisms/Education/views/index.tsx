@@ -1,12 +1,11 @@
 import * as React from 'react'
 import EducationSection from './styles'
+import HeaderSection from '../../../molecules/HeaderSection'
 
 const Education: React.FC = () => {
   return(
     <EducationSection id="education" data-wow-offset="40">
-      <div className="header-section">
-        <h2 className="h2-section">EDUCATION</h2>
-      </div>
+      <HeaderSection>EDUCATION</HeaderSection>
       <div className="row">
         <div className="col-sm-4">
           <div className="education-content">
