@@ -1,12 +1,12 @@
 import * as React from 'react'
 import ContactSection from './styles'
+import SocialLinks from '../../../molecules/SocialLinks'
+import HeaderSection from '../../../molecules/HeaderSection'
 
 const Contact: React.FC = () => {
   return(
     <ContactSection id="contact-us" data-wow-offset="40">
-      <div className="header-section">
-        <h2 className="h2-section">CONTACT US</h2>
-      </div>
+      <HeaderSection>CONTAST US</HeaderSection>
       <div className="row">
         <div className="col-sm-12">
           <div className="info-content">
@@ -32,28 +32,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="social-links">
-        <ul>
-          <li>
-            <a href="# "><i className="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="# "><i className="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="# "><i className="fa fa-google-plus"></i></a>
-          </li>
-          <li>
-            <a href="# "><i className="fa fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a href="# "><i className="fa fa-pinterest-p"></i></a>
-          </li>
-          <li>
-            <a href="# "><i className="fa fa-behance"></i></a>
-          </li>
-        </ul>
-      </div>
+      <SocialLinks />
     </ContactSection>
   )
 }

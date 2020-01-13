@@ -1,12 +1,11 @@
 import * as React from 'react'
 import InterestSection from './styles'
+import HeaderSection from '../../../molecules/HeaderSection'
 
 const Interest: React.FC = () => {
   return(
     <InterestSection id="interests" data-wow-offset="40">
-      <div className="header-section">
-        <h2 className="h2-section">INTERESTS</h2>
-      </div>
+      <HeaderSection>INTEREST</HeaderSection>
       <div className="text-interests">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

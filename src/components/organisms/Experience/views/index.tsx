@@ -1,12 +1,11 @@
 import * as React from 'react'
 import ExperienceSection from './styles'
+import HeaderSection from '../../../molecules/HeaderSection'
 
 const Experience: React.FC = () => {
   return(
     <ExperienceSection id="experience" data-wow-offset="40">
-      <div className="header-section">
-        <h2 className="h2-section">EXPERIENCE</h2>
-      </div>
+      <HeaderSection>EXPERIENCE</HeaderSection>
       <div className="row">
         <div className="col-md-10 col-md-offset-1">
           <span className="icon-experience">
