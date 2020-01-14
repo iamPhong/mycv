@@ -25,8 +25,8 @@ const About: React.FC = () => {
             <div className="info-profile">
               <h2><span>HI I'M</span> TRUONG VAN PHONG</h2>
               <h3>web developer</h3>
-              <p>Hello! I’m Truong Van Phong. Web Developer with over 1,5 years of experience.
-              Having an in-depth knowledge including basic HTML, CSS, JavaScript, jQuery, Angular JS.</p>
+              <p>Hello! I’m Truong Van Phong. Web Developer with over 1 years of experience.
+              Having an in-depth knowledge including basic HTML, CSS, JavaScript, jQuery, Angular JS, Ruby on Rails</p>
               <div className="row">
                 <div className="col-sm-6">
                   <ul className="ul-info">
@@ -81,11 +81,6 @@ const About: React.FC = () => {
                     <li className="li-social-links">
                       <a href="# " data-tootik="Linkedin" data-tootik-conf="square">
                         <i className="fa fa-linkedin" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li className="li-social-links">
-                      <a href="# " data-tootik="Dribbble" data-tootik-conf="square">
-                        <i className="fa fa-dribbble" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li className="li-social-links">
