@@ -84,11 +84,6 @@ const About: React.FC = () => {
                       </a>
                     </li>
                     <li className="li-social-links">
-                      <a href="# " data-tootik="Dribbble" data-tootik-conf="square">
-                        <i className="fa fa-dribbble" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <li className="li-social-links">
                       <a href="# " data-tootik="Pinterest" data-tootik-conf="square">
                         <i className="fa fa-pinterest-p" aria-hidden="true"></i>
                       </a>
