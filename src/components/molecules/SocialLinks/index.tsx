@@ -6,19 +6,29 @@ const SocialLinks: React.FC = () => {
     <LinkDiv>
       <ul>
         <li>
-          <a href="https://www.facebook.com/phong.truong.71216141"><i className="fa fa-facebook"></i></a>
+          <a href="https://www.facebook.com/phong.truong.71216141">
+            <i className="fa fa-facebook"></i>
+          </a>
         </li>
         <li>
-          <a href="# "><i className="fa fa-twitter"></i></a>
+          <a href="# ">
+            <i className="fa fa-twitter"></i>
+          </a>
         </li>
         <li>
-          <a href="# "><i className="fa fa-google-plus"></i></a>
+          <a href="# ">
+            <i className="fa fa-google-plus"></i>
+          </a>
         </li>
         <li>
-          <a href="# "><i className="fa fa-linkedin"></i></a>
+          <a href="# ">
+            <i className="fa fa-linkedin"></i>
+          </a>
         </li>
         <li>
-          <a href="# "><i className="fa fa-pinterest-p"></i></a>
+          <a href="# ">
+            <i className="fa fa-pinterest-p"></i>
+          </a>
         </li>
       </ul>
     </LinkDiv>

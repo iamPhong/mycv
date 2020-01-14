@@ -6,7 +6,7 @@ import HeaderSection from '../../../molecules/HeaderSection'
 const Contact: React.FC = () => {
   return(
     <ContactSection id="contact-us" data-wow-offset="40">
-      <HeaderSection>CONTAST US</HeaderSection>
+      <HeaderSection>CONTAST</HeaderSection>
       <div className="row">
         <div className="col-sm-12">
           <div className="info-content">

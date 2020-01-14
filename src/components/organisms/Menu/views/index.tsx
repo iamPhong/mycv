@@ -15,7 +15,7 @@ const Menu: React.FC = () => {
           <li><a href="# " data-value="testimonials">TESTIMONIALS</a></li>
           <li><a href="# " data-value="interests">INTERESTS</a></li>
           <li><a href="# " data-value="blog">BLOG</a></li>
-          <li><a href="# " data-value="contact-us">CONTACT US</a></li>
+          <li><a href="# " data-value="contact-us">CONTACT</a></li>
         </ul>
       </div>
       <div className="open-menu">

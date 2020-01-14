@@ -40,9 +40,9 @@ const Blog: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="load-more">
+      {/* <div className="load-more">
         <a href="more-blog.html"><span>LOAD MORE</span></a>
-      </div>
+      </div> */}
     </BlogSection>
   )
 }

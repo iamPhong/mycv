@@ -8,11 +8,8 @@ const Interest: React.FC = () => {
       <HeaderSection>INTEREST</HeaderSection>
       <div className="text-interests">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur.
+          "Hãy bắt đầu làm những việc cần thiết, sau đó làm những việc bạn có thể,
+          và tự nhiên bạn có thể làm những điều không thể"
         </p>
       </div>
       <div className="swiper-container">
