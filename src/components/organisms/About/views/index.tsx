@@ -10,10 +10,10 @@ const About: React.FC = () => {
             <div className="photo-profile">
               <img src="images/me.jpg" alt="Truong Van Phong" />
             </div>
-            <a href="cv/cv-1.pdf" target="cv">
+            <a href="cv/CV.pdf" target="cv">
               <div className="download-resume">
                 <i className="fa fa-cloud-download" aria-hidden="true"></i>
-                <span className="text-download">DOWNLOAD RESUME</span>
+                <span className="text-download">DOWNLOAD CV</span>
               </div>
             </a>
             <div className="available">

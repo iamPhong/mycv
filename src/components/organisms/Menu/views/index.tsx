@@ -4,7 +4,7 @@ import MenuDiv from "./styles"
 const Menu: React.FC = () => {
   return(
     <MenuDiv>
-      <h2 className="logo">VP</h2>
+      <h2 className="logo">KMA</h2>
       <div className="menu-content">
         <ul>
           <li><a className="active" href="# " data-value="about">ABOUT</a></li>
