@@ -46,18 +46,6 @@ const Interest: React.FC = () => {
           </div>
           <div className="swiper-slide">
             <div>
-              <img src={process.env.PUBLIC_URL + "/images/interests/shopping_icon.png"} alt="Shopping" />
-            </div>
-            <h4>Shopping</h4>
-          </div>
-          <div className="swiper-slide">
-            <div>
-              <img src={process.env.PUBLIC_URL + "/images/interests/bicycling_icon.png"} alt="Bicycling" />
-            </div>
-            <h4>Bicycling</h4>
-          </div>
-          <div className="swiper-slide">
-            <div>
               <img src={process.env.PUBLIC_URL + "/images/interests/cooking_icon.png"} alt="Cooking" />
             </div>
             <h4>Cooking</h4>

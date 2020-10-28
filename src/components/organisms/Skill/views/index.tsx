@@ -28,22 +28,6 @@ const Skill: React.FC = () => {
             </div>
             <div className="skill">
               <div className="title-progress">
-                <span className="skill-name">WordPress</span>
-                <span className="skill-value">0%</span>
-              </div>
-              <div className="progress">
-                  <div className="progress-bar progress2"
-                        role="progressbar"
-                        aria-valuenow={60}
-                        aria-valuemin={0}
-                        aria-valuemax={100}
-                        style={{width: "0%"}}
-                        >
-                  </div>
-              </div>
-            </div>
-            <div className="skill">
-              <div className="title-progress">
                 <span className="skill-name">JavaScript</span>
                 <span className="skill-value">70%</span>
               </div>
@@ -77,7 +61,7 @@ const Skill: React.FC = () => {
             <div className="skill">
               <div className="title-progress">
                 <span className="skill-name">Photoshop</span>
-                <span className="skill-value">65%</span>
+                <span className="skill-value">50%</span>
               </div>
               <div className="progress">
                   <div className="progress-bar progress5"
@@ -85,7 +69,7 @@ const Skill: React.FC = () => {
                         aria-valuenow={60}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                        style={{width: "65%"}}
+                        style={{width: "50%"}}
                         >
                   </div>
               </div>
@@ -102,9 +86,9 @@ const Skill: React.FC = () => {
                 <div className="col-sm-4">
                   <div className="circle">
                     <div className="chart-percentage">
-                      <span>60%</span>
+                      <span>55%</span>
                     </div>
-                    <div className="chart" data-percent="60">
+                    <div className="chart" data-percent="55">
                     </div>
                     <div className="name-circle">
                       <span>English</span>
@@ -114,9 +98,9 @@ const Skill: React.FC = () => {
                 <div className="col-sm-4">
                   <div className="circle">
                     <div className="chart-percentage">
-                      <span>70%</span>
+                      <span>65%</span>
                     </div>
-                    <div className="chart" data-percent="70">
+                    <div className="chart" data-percent="65">
                     </div>
                     <div className="name-circle">
                       <span>Creativity</span>
@@ -126,9 +110,9 @@ const Skill: React.FC = () => {
                 <div className="col-sm-4">
                   <div className="circle">
                     <div className="chart-percentage">
-                      <span>65%</span>
+                      <span>70%</span>
                     </div>
-                    <div className="chart" data-percent="65">
+                    <div className="chart" data-percent="70">
                     </div>
                     <div className="name-circle">
                       <span>Teamwork</span>
@@ -142,32 +126,24 @@ const Skill: React.FC = () => {
                 <div className="col-sm-6">
                   <div className="other">
                     <div className="skill">
-                      <i className="fa fa-close" aria-hidden="true"></i>
-                      <span>Photography</span>
+                      <i className="fa fa-check-square-o" aria-hidden="true"></i>
+                      <span>MySQL</span>
                     </div>
                     <div className="skill">
                       <i className="fa fa-check-square-o" aria-hidden="true"></i>
-                      <span>Play Soccer</span>
-                    </div>
-                    <div className="skill">
-                      <i className="fa fa-check-square-o" aria-hidden="true"></i>
-                      <span>Play Badminton</span>
+                      <span>Docker</span>
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <div className="other">
                     <div className="skill">
-                      <i className="fa fa-close" aria-hidden="true"></i>
-                      <span>3D Animation</span>
-                    </div>
-                    <div className="skill">
-                      <i className="fa fa-close" aria-hidden="true"></i>
-                      <span>Audio Video Editing</span>
+                      <i className="fa fa-check-square-o" aria-hidden="true"></i>
+                      <span>UX and UI Design</span>
                     </div>
                     <div className="skill">
                       <i className="fa fa-check-square-o" aria-hidden="true"></i>
-                      <span>UX and UI Design</span>
+                      <span>Unit Test</span>
                     </div>
                   </div>
                 </div>

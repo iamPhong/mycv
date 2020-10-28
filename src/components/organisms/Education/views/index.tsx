@@ -21,7 +21,7 @@ const Education: React.FC = () => {
               </li>
               <li className="li-university">
                 <div className="university">
-                  <span className="education-icon"><i className="fa fa-university"></i></span>
+                  <span className="education-icon"><i className="fa fa-building"></i></span>
                   <span className="university-name">Sun * Inc</span>
                 </div>
               </li>
@@ -53,7 +53,7 @@ const Education: React.FC = () => {
             <p className="prg-education">
               I'm a student in KMA university. My specialize is Information Security.
               I completed this degree from this prestigious insitution.
-              I successful completed all the credits without any fallout and got A grade overall.
+              I successful completed all the credits without any fallout and got Good grade overall.
             </p>
           </div>
         </div>
