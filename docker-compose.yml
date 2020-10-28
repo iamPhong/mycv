@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  mycv:
+    stdin_open: true
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3002:3000
+    volumes: 
+      - .:/mycv:cached
+    command: sh /mycv/docker-entrypoint.sh
