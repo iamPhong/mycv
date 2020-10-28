@@ -6,7 +6,6 @@
 
 
 # Deploy with Docker (Not suggest)
-***Only works on local server, not working deploy with gh-pages (the issue has no solution)***
 ```
 docker-compose build
 docker-compose up
@@ -14,3 +13,13 @@ docker-compose up
 Publish in http://localhost:3002
 
 ![](https://i.imgur.com/vBOkflC.gif)
+
+***note: need config git with below option:
+```
+git config --global user.name "YourUserName"
+git config --global user.email "YouEmail"
+```
+### Deploy
+```
+docker-compose run mycv yarn run deploy
+```
