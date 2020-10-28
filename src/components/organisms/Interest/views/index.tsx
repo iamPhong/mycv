@@ -16,49 +16,49 @@ const Interest: React.FC = () => {
         <div className="swiper-wrapper">
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/travel_icon.png" alt="Travel" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/travel_icon.png"} alt="Travel" />
             </div>
             <h4>Travel</h4>
           </div>
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/music_icon.png" alt="Music" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/music_icon.png"} alt="Music" />
             </div>
             <h4>Music</h4>
           </div>
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/gaming_icon.png" alt="Gaming" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/gaming_icon.png"} alt="Gaming" />
             </div>
             <h4>Gaming</h4>
           </div>
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/swiming_icon.png" alt="Swiming" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/swiming_icon.png"} alt="Swiming" />
             </div>
             <h4>Swiming</h4>
           </div>
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/movies_icon.png" alt="Movies" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/movies_icon.png"} alt="Movies" />
             </div>
             <h4>Movies</h4>
           </div>
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/shopping_icon.png" alt="Shopping" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/shopping_icon.png"} alt="Shopping" />
             </div>
             <h4>Shopping</h4>
           </div>
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/bicycling_icon.png" alt="Bicycling" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/bicycling_icon.png"} alt="Bicycling" />
             </div>
             <h4>Bicycling</h4>
           </div>
           <div className="swiper-slide">
             <div>
-              <img src="images/interests/cooking_icon.png" alt="Cooking" />
+              <img src={process.env.PUBLIC_URL + "/images/interests/cooking_icon.png"} alt="Cooking" />
             </div>
             <h4>Cooking</h4>
           </div>

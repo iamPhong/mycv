@@ -8,9 +8,9 @@ const About: React.FC = () => {
         <div className="row">
           <div className="col-sm-4">
             <div className="photo-profile">
-              <img src="images/me.jpg" alt="Truong Van Phong" />
+              <img src={process.env.PUBLIC_URL + "/images/me.jpg"} alt="Truong Van Phong" />
             </div>
-            <a href="cv/CV.pdf" target="cv">
+            <a href={process.env.PUBLIC_URL + "/cv/CV.pdf"} target="cv">
               <div className="download-resume">
                 <i className="fa fa-cloud-download" aria-hidden="true"></i>
                 <span className="text-download">DOWNLOAD CV</span>

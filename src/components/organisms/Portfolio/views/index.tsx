@@ -20,7 +20,7 @@ const Portfolio: React.FC = () => {
             <div className="item-overlay">
               <div className="item-content">
                 <span className="icon-search">
-                  <a className="work-popup" href="images/portfolio/item1.jpg" data-group="1">
+                  <a className="work-popup" href={process.env.PUBLIC_URL + "/images/portfolio/item1.jpg"} data-group="1">
                     <i className="fa fa-search" aria-hidden="true"></i>
                   </a>
                 </span>
@@ -32,7 +32,7 @@ const Portfolio: React.FC = () => {
                 <h3>AWESOME TITLE PORTFOLIO</h3>
               </div>
             </div>
-            <img src="images/portfolio/item1.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio/item1.jpg"} alt="" />
           </div>
         </div>
         <div className="col-sm-4">
@@ -40,7 +40,7 @@ const Portfolio: React.FC = () => {
             <div className="item-overlay">
               <div className="item-content">
                 <span className="icon-search">
-                  <a className="work-popup" href="images/portfolio/item2.jpg" data-group="1">
+                  <a className="work-popup" href={process.env.PUBLIC_URL + "/images/portfolio/item2.jpg"} data-group="1">
                     <i className="fa fa-search" aria-hidden="true"></i>
                   </a>
                 </span>
@@ -52,7 +52,7 @@ const Portfolio: React.FC = () => {
                 <h3>AWESOME TITLE PORTFOLIO</h3>
               </div>
             </div>
-            <img src="images/portfolio/item2.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio/item2.jpg"} alt="" />
           </div>
         </div>
         <div className="col-sm-4">
@@ -60,7 +60,7 @@ const Portfolio: React.FC = () => {
             <div className="item-overlay">
               <div className="item-content">
                 <span className="icon-search">
-                  <a className="work-popup" href="images/portfolio/item3.jpg" data-group="1">
+                  <a className="work-popup" href={process.env.PUBLIC_URL + "/images/portfolio/item3.jpg"} data-group="1">
                     <i className="fa fa-search" aria-hidden="true"></i>
                   </a>
                 </span>
@@ -72,7 +72,7 @@ const Portfolio: React.FC = () => {
                 <h3>AWESOME TITLE PORTFOLIO</h3>
               </div>
             </div>
-            <img src="images/portfolio/item3.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio/item3.jpg"} alt="" />
           </div>
         </div>
         <div className="clearfix"></div>
@@ -81,7 +81,7 @@ const Portfolio: React.FC = () => {
             <div className="item-overlay">
               <div className="item-content">
                 <span className="icon-search">
-                  <a className="work-popup" href="images/portfolio/item4.jpg" data-group="1">
+                  <a className="work-popup" href={process.env.PUBLIC_URL + "/images/portfolio/item4.jpg"} data-group="1">
                     <i className="fa fa-search" aria-hidden="true"></i>
                   </a>
                 </span>
@@ -93,7 +93,7 @@ const Portfolio: React.FC = () => {
                 <h3>AWESOME TITLE PORTFOLIO</h3>
               </div>
             </div>
-            <img src="images/portfolio/item4.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio/item4.jpg"} alt="" />
           </div>
         </div>
         <div className="col-sm-4">
@@ -101,7 +101,7 @@ const Portfolio: React.FC = () => {
             <div className="item-overlay">
               <div className="item-content">
                 <span className="icon-search">
-                  <a className="work-popup" href="images/portfolio/item5.jpg" data-group="1">
+                  <a className="work-popup" href={process.env.PUBLIC_URL + "/images/portfolio/item5.jpg"} data-group="1">
                     <i className="fa fa-search" aria-hidden="true"></i>
                   </a>
                 </span>
@@ -113,7 +113,7 @@ const Portfolio: React.FC = () => {
                 <h3>AWESOME TITLE PORTFOLIO</h3>
               </div>
             </div>
-            <img src="images/portfolio/item5.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio/item5.jpg"} alt="" />
           </div>
         </div>
         <div className="col-sm-4">
@@ -121,7 +121,7 @@ const Portfolio: React.FC = () => {
             <div className="item-overlay">
               <div className="item-content">
                 <span className="icon-search">
-                  <a className="work-popup" href="images/portfolio/item6.jpg" data-group="1">
+                  <a className="work-popup" href={process.env.PUBLIC_URL + "/images/portfolio/item6.jpg"} data-group="1">
                     <i className="fa fa-search" aria-hidden="true"></i>
                   </a>
                 </span>
@@ -133,7 +133,7 @@ const Portfolio: React.FC = () => {
                 <h3>AWESOME TITLE PORTFOLIO</h3>
               </div>
             </div>
-            <img src="images/portfolio/item6.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio/item6.jpg"} alt="" />
           </div>
         </div>
         <div className="clearfix"></div>
