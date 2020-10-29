@@ -15,28 +15,12 @@ const Skill: React.FC = () => {
             <div className="skill">
               <div className="title-progress">
                 <span className="skill-name">HTML & CSS</span>
-                <span className="skill-value">60%</span>
-              </div>
-              <div className="progress">
-                  <div className="progress-bar progress1"
-                        role="progressbar" aria-valuenow={60}
-                        aria-valuemin={0} aria-valuemax={100}
-                        style={{width: "60%"}}
-                        >
-                  </div>
-              </div>
-            </div>
-            <div className="skill">
-              <div className="title-progress">
-                <span className="skill-name">JavaScript</span>
                 <span className="skill-value">70%</span>
               </div>
               <div className="progress">
-                  <div className="progress-bar progress3"
-                        role="progressbar"
-                        aria-valuenow={60}
-                        aria-valuemin={0}
-                        aria-valuemax={100}
+                  <div className="progress-bar progress1"
+                        role="progressbar" aria-valuenow={70}
+                        aria-valuemin={0} aria-valuemax={100}
                         style={{width: "70%"}}
                         >
                   </div>
@@ -44,32 +28,48 @@ const Skill: React.FC = () => {
             </div>
             <div className="skill">
               <div className="title-progress">
-                <span className="skill-name">Ruby on Rails</span>
-                <span className="skill-value">85%</span>
+                <span className="skill-name">JavaScript</span>
+                <span className="skill-value">75%</span>
               </div>
               <div className="progress">
-                  <div className="progress-bar progress4"
+                  <div className="progress-bar progress3"
                         role="progressbar"
-                        aria-valuenow={60}
+                        aria-valuenow={75}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                        style={{width: "85%"}}
+                        style={{width: "75%"}}
                         >
                   </div>
               </div>
             </div>
             <div className="skill">
               <div className="title-progress">
-                <span className="skill-name">Photoshop</span>
-                <span className="skill-value">50%</span>
+                <span className="skill-name">Ruby on Rails</span>
+                <span className="skill-value">90%</span>
+              </div>
+              <div className="progress">
+                  <div className="progress-bar progress4"
+                        role="progressbar"
+                        aria-valuenow={90}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                        style={{width: "90%"}}
+                        >
+                  </div>
+              </div>
+            </div>
+            <div className="skill">
+              <div className="title-progress">
+                <span className="skill-name">Docker</span>
+                <span className="skill-value">70%</span>
               </div>
               <div className="progress">
                   <div className="progress-bar progress5"
                         role="progressbar"
-                        aria-valuenow={60}
+                        aria-valuenow={70}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                        style={{width: "50%"}}
+                        style={{width: "70%"}}
                         >
                   </div>
               </div>
@@ -86,9 +86,9 @@ const Skill: React.FC = () => {
                 <div className="col-sm-4">
                   <div className="circle">
                     <div className="chart-percentage">
-                      <span>55%</span>
+                      <span>60%</span>
                     </div>
-                    <div className="chart" data-percent="55">
+                    <div className="chart" data-percent="60">
                     </div>
                     <div className="name-circle">
                       <span>English</span>
@@ -131,7 +131,7 @@ const Skill: React.FC = () => {
                     </div>
                     <div className="skill">
                       <i className="fa fa-check-square-o" aria-hidden="true"></i>
-                      <span>Docker</span>
+                      <span>Photoshop</span>
                     </div>
                   </div>
                 </div>

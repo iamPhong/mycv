@@ -10,7 +10,7 @@ const Education: React.FC = () => {
         <div className="col-sm-6">
           <div className="education-content">
             <div className="period">
-              <h3>2019 - Current</h3>
+              <h3>Jan 2019 - Apr 2019</h3>
             </div>
             <ul className="ul-education">
               <li className="li-specialty">
@@ -27,7 +27,8 @@ const Education: React.FC = () => {
               </li>
             </ul>
             <p className="prg-education">
-              Updating ...
+              Take a course called "Open Education" about programming languages Ruby On Rails.
+              Learn how to use git, teamwork, design database, etc
             </p>
           </div>
         </div>

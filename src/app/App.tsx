@@ -9,7 +9,7 @@ import ScrollTopBtn from '../components/organisms/ScrollTopBtn'
 import Skill from '../components/organisms/Skill'
 import Education from '../components/organisms/Education'
 import Experience from '../components/organisms/Experience'
-import Portfolio from '../components/organisms/Portfolio'
+// import Portfolio from '../components/organisms/Portfolio'
 import Interest from '../components/organisms/Interest'
 import Contact from '../components/organisms/Contact'
 
@@ -25,7 +25,7 @@ const App: React.FC = () => {
 				<Skill />
 				<Education />
 				<Experience />
-				<Portfolio />
+				{/* <Portfolio /> */}
 				<Interest />
 				<Contact />
 			</Container>
