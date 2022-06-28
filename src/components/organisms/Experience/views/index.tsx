@@ -13,12 +13,34 @@ const Experience: React.FC = () => {
           </span>
           <div className="all-experience">
             <div className="experience-content">
-              <span className="period-experience">Nov 2020 - Current</span>
+              <span className="period-experience">Oct 2021 - Current</span>
               <h3 className="specialty-name">Web Developer</h3>
               <h3 className="company-name">Sun * Inc</h3>
-              <p className="prg-experience">
-                Updatting...
-              </p>
+              <div className="prg-experience">
+                <p>Full-time Staff.</p>
+                <p>Project: Tas__</p>
+                <p>Technologies: Ruby On Rails, MySQL, Docker, Elasticsearch</p>
+              </div>
+            </div>
+            <div className="experience-content">
+              <span className="period-experience">Mar 2021 - Oct 2021</span>
+              <h3 className="specialty-name">Web Developer</h3>
+              <h3 className="company-name">Sun * Inc</h3>
+              <div className="prg-experience">
+                <p>Full-time Staff.</p>
+                <p>Project: W__</p>
+                <p>Technologies: Ruby On Rails, MySQL, Docker</p>
+              </div>
+            </div>
+            <div className="experience-content">
+              <span className="period-experience">Nov 2020 - Mar 2021</span>
+              <h3 className="specialty-name">Web Developer</h3>
+              <h3 className="company-name">Sun * Inc</h3>
+              <div className="prg-experience">
+                <p>Full-time Staff.</p>
+                <p>Project: ZE__</p>
+                <p>Technologies: Ruby On Rails, MySQL, Docker</p>
+              </div>
             </div>
             <div className="experience-content">
               <span className="period-experience">Mar 2020 - Nov 2020</span>

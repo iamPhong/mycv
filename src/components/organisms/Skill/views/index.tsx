@@ -14,14 +14,32 @@ const Skill: React.FC = () => {
             </div>
             <div className="skill">
               <div className="title-progress">
-                <span className="skill-name">HTML & CSS</span>
-                <span className="skill-value">70%</span>
+                <span className="skill-name">Ruby on Rails</span>
+                <span className="skill-value">90%</span>
               </div>
               <div className="progress">
-                  <div className="progress-bar progress1"
-                        role="progressbar" aria-valuenow={70}
-                        aria-valuemin={0} aria-valuemax={100}
-                        style={{width: "70%"}}
+                  <div className="progress-bar progress4"
+                        role="progressbar"
+                        aria-valuenow={90}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                        style={{width: "90%"}}
+                        >
+                  </div>
+              </div>
+            </div>
+            <div className="skill">
+              <div className="title-progress">
+                <span className="skill-name">MySQL</span>
+                <span className="skill-value">80%</span>
+              </div>
+              <div className="progress">
+                  <div className="progress-bar progress5"
+                        role="progressbar"
+                        aria-valuenow={80}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                        style={{width: "80%"}}
                         >
                   </div>
               </div>
@@ -44,16 +62,14 @@ const Skill: React.FC = () => {
             </div>
             <div className="skill">
               <div className="title-progress">
-                <span className="skill-name">Ruby on Rails</span>
-                <span className="skill-value">90%</span>
+                <span className="skill-name">HTML & CSS</span>
+                <span className="skill-value">75%</span>
               </div>
               <div className="progress">
-                  <div className="progress-bar progress4"
-                        role="progressbar"
-                        aria-valuenow={90}
-                        aria-valuemin={0}
-                        aria-valuemax={100}
-                        style={{width: "90%"}}
+                  <div className="progress-bar progress1"
+                        role="progressbar" aria-valuenow={75}
+                        aria-valuemin={0} aria-valuemax={100}
+                        style={{width: "75%"}}
                         >
                   </div>
               </div>
@@ -61,15 +77,15 @@ const Skill: React.FC = () => {
             <div className="skill">
               <div className="title-progress">
                 <span className="skill-name">Docker</span>
-                <span className="skill-value">70%</span>
+                <span className="skill-value">75%</span>
               </div>
               <div className="progress">
                   <div className="progress-bar progress5"
                         role="progressbar"
-                        aria-valuenow={70}
+                        aria-valuenow={75}
                         aria-valuemin={0}
                         aria-valuemax={100}
-                        style={{width: "70%"}}
+                        style={{width: "75%"}}
                         >
                   </div>
               </div>
@@ -98,9 +114,9 @@ const Skill: React.FC = () => {
                 <div className="col-sm-4">
                   <div className="circle">
                     <div className="chart-percentage">
-                      <span>65%</span>
+                      <span>60%</span>
                     </div>
-                    <div className="chart" data-percent="65">
+                    <div className="chart" data-percent="60">
                     </div>
                     <div className="name-circle">
                       <span>Creativity</span>
@@ -110,9 +126,9 @@ const Skill: React.FC = () => {
                 <div className="col-sm-4">
                   <div className="circle">
                     <div className="chart-percentage">
-                      <span>70%</span>
+                      <span>90%</span>
                     </div>
-                    <div className="chart" data-percent="70">
+                    <div className="chart" data-percent="90">
                     </div>
                     <div className="name-circle">
                       <span>Teamwork</span>
@@ -125,10 +141,6 @@ const Skill: React.FC = () => {
               <div className="row">
                 <div className="col-sm-6">
                   <div className="other">
-                    <div className="skill">
-                      <i className="fa fa-check-square-o" aria-hidden="true"></i>
-                      <span>MySQL</span>
-                    </div>
                     <div className="skill">
                       <i className="fa fa-check-square-o" aria-hidden="true"></i>
                       <span>Photoshop</span>

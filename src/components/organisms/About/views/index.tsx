@@ -16,23 +16,18 @@ const About: React.FC = () => {
                 <span className="text-download">DOWNLOAD CV</span>
               </div>
             </a>
-            <div className="available">
-              <i className="fa fa-check" aria-hidden="true"></i>
-              <span className="text-available">I'm still learning</span>
-            </div>
           </div>
           <div className="col-sm-8">
             <div className="info-profile">
               <h2><span>HI I'M</span> TRUONG VAN PHONG</h2>
               <h3>web developer</h3>
-              <p>Hello! I’m Truong Van Phong. Web Developer with over 1 years of experience.
-              Having an in-depth knowledge including basic HTML, CSS, JavaScript, jQuery, Angular JS, Ruby on Rails</p>
+              <p>Hello! I’m Truong Van Phong. Ruby on Rails Developer with over 3 years of experience.</p>
               <div className="row">
                 <div className="col-sm-6">
                   <ul className="ul-info">
                     <li className="li-info">
                       <span className="title-info">Age</span>
-                      <span className="info">23</span>
+                      <span className="info">25</span>
                     </li>
                     <li className="li-info">
                       <span className="title-info">Address</span>
